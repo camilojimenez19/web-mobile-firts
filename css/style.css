@@ -18,7 +18,7 @@ Buenas practicas para generar estilos
     --black: #282623;
     --grey: #BABABA;
     --off-white: #FAF8F7;
-    --just-wite: #FFFFFF;
+    --just-white: #FFFFFF;
 
 }
 * {
@@ -41,6 +41,7 @@ header {
     min-width: 320px;
     height: 334px;
     text-align: center;
+    background: linear-gradient(207.8deg, #201E1C 16.69%, #F7931A 100%);;
 }
 
 header img {
@@ -58,4 +59,42 @@ header img {
     margin-top: 40px;
     text-align: center;
     align-self: center;
+}
+
+.header--title-container h1 {
+    font-size: 2.4rem;
+    font-weight: bold;
+    line-height: 2.6rem;
+    color: var(--just-white);
+}
+
+.header--title-container p {
+    margin-top: 25px;
+    font-size: 1.4rem;
+    line-height: 1.8rem;
+    font-weight: 500;
+    color: var(--soft-orange);
+}
+
+.header--title-container .header--button {
+    position: absolute;
+    top: 270px;
+    display: block;
+    margin-top: 35px;
+    padding: 15px;
+    width: 229px;
+    height: 48px;
+    background-color: var(--off-white);
+    /* Sombra */
+    border-radius: 4px;
+    box-shadow: 0px 4px 8px rgba(89, 73, 30, 0.16);
+    color: var(--warm-black);
+    font-size: 1.4rem;
+    font-weight: bold;
+    line-height: 18px;
+    text-decoration: none;
+}
+
+.header--button span{
+    padding-left: 10px;
 }
