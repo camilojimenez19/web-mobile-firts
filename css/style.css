@@ -78,6 +78,7 @@ header img {
 
 .header--title-container .header--button {
     position: absolute;
+    left: calc(50% - 118px);
     top: 270px;
     display: block;
     margin-top: 35px;
@@ -87,6 +88,7 @@ header img {
     background-color: var(--off-white);
     /* Sombra */
     border-radius: 4px;
+    border: none;
     box-shadow: 0px 4px 8px rgba(89, 73, 30, 0.16);
     color: var(--warm-black);
     font-size: 1.4rem;
@@ -96,5 +98,9 @@ header img {
 }
 
 .header--button span{
-    padding-left: 10px;
+    display: inline-block;
+    width: 13px;
+    height: 8px;
+    margin-left: 10px;
+    background-image: url('../icons/down-arrow.svg');
 }
