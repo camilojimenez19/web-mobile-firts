@@ -78,8 +78,11 @@ header img {
 
 .header--title-container .header--button {
     position: absolute;
-    left: calc(50% - 118px);
     top: 270px;
+    left: 0;
+    right: 0;
+    margin-right: auto;
+    margin-left: auto;
     display: block;
     margin-top: 35px;
     padding: 15px;
@@ -103,4 +106,29 @@ header img {
     height: 8px;
     margin-left: 10px;
     background-image: url('../icons/down-arrow.svg');
+}
+
+main{
+    width: 100%;
+    height: auto;
+    background-color: var(--off-white);
+}
+
+.main-exchange-container {
+    width: 100%;
+    height: auto;
+    padding-top: 80px;
+    padding-bottom: 30px;
+    text-align: center;
+}
+
+.main-exchange-container--title {
+    width: 90%;
+    min-width: 288px;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.background-img {
+
 }
