@@ -162,12 +162,23 @@ main{
 
 /* Currency */
 
+.main-tables-slider{
+    display: flex;
+    margin: 0 15px;
+    gap: 10px;
+    overflow-x: scroll;
+    overscroll-behavior-x: contain;
+    scroll-snap-type: x proximity;
+    
+}
+
 .main-tables-container{
     margin-top: 10px;
 }
 
 .main-currency-table{
     width: 70%;
+    scroll-snap-align: center;
     min-width: 235px;
     max-width: 500px;
     height: 360px;
@@ -413,6 +424,7 @@ main{
 
 .plans-container--slider{
     display: flex;
+    margin: 0 10px;
     gap: 8px;
     height: 316px;
     overflow-x: scroll;
@@ -501,3 +513,29 @@ main{
     vertical-align: text-bottom;
 }
 
+footer{
+    display: flex;
+    width: 100%;
+    height: 150px;
+    background-color: var(--bitcoin-orange);
+}
+footer section{
+    display: flex;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+}
+
+footer .footer-left ul{
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1.8rem;
+    list-style: none;
+}
+footer .footer-left li{
+    margin: 10px 0;
+}
+footer .footer-left a{
+    text-decoration: none;
+    color: var(--just-white);
+}
