@@ -426,10 +426,13 @@ main{
     display: flex;
     margin: 0 10px;
     gap: 8px;
-    height: 316px;
+    height: 320px;
     overflow-x: scroll;
     overscroll-behavior-x: contain;
     scroll-snap-type: x proximity;
+}
+.plans-container--slider::-webkit-scrollbar {
+    display: none;
 }
 
 .plans-container--card{
