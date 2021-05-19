@@ -314,8 +314,6 @@ main{
 
 .products-cards--container {
     width: 100%;
-    min-width: 288px;
-    max-width: 400px;
     height: auto;
     margin: 0 auto;
     margin-top: 20px;
@@ -323,6 +321,8 @@ main{
 
 .products-cards--container .product-detail--card{
     width: 100%;
+    min-width: 288px;
+    max-width: 400px;
     min-height: 150px;
     padding: 15px;
     background-color: var(--black);
@@ -439,7 +439,7 @@ main{
     min-width: 190px;
     max-width: 300px;
     height: 260px;
-    margin: 50px auto 0;
+    margin: 50px 8px 0;
     padding: 0 15px;
     background-color: var(--just-white);
     box-shadow: 0px 4px 8px rgba(89, 73, 30, 0.16);
